@@ -13,7 +13,7 @@ public class RateBLL {
 	
 	public static double getRate(int GivenCreditScore) throws RateException 
 	{
-		//TODO - RocketBLL RateBLL.getRate - make sure you throw any exception DONE
+		// - RocketBLL RateBLL.getRate - make sure you throw any exception DONE
 		
 		//		Call RateDAL.getAllRates... this returns an array of rates
 		//		write the code that will search the rates to determine the 
@@ -36,7 +36,7 @@ public class RateBLL {
 		}
 
 		
-		//TODO - RocketBLL RateBLL.getRate
+		// - RocketBLL RateBLL.getRate
 		//			obviously this should be changed to return the determined rate
 		return tempRate;
 		
@@ -44,7 +44,7 @@ public class RateBLL {
 	}
 	
 	
-	//TODO - RocketBLL RateBLL.getPayment 
+	// - RocketBLL RateBLL.getPayment 
 	//		how to use:
 	//		https://poi.apache.org/apidocs/org/apache/poi/ss/formula/functions/FinanceLib.html
 	

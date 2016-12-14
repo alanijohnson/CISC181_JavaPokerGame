@@ -25,7 +25,7 @@ public class RateDAL {
 		try {
 			tx = session.beginTransaction();	
 			
-			//TODO - RocketDALRateDAL.getAllRates (DONE?)
+			//- RocketDALRateDAL.getAllRates (DONE?)
 			//			probably not a bad idea to sort the results...  Add an OrderBy
 			//			example can be found here:
 			//  		http://www.tutorialspoint.com/hibernate/hibernate_query_language.htm

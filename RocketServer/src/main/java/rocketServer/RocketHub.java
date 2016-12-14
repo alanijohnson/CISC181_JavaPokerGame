@@ -25,7 +25,7 @@ public class RocketHub extends Hub {
 			
 			LoanRequest lq = (LoanRequest) message;
 			
-			//	TODO - RocketHub.messageReceived
+			// - RocketHub.messageReceived
 
 			//	You will have to:
 			//	Determine the rate with the given credit score (call RateBLL.getRate)

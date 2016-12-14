@@ -19,7 +19,7 @@ public class MortgageController {
 
 	private MainApp mainApp;
 	
-	//	TODO - RocketClient.RocketMainController
+	// - RocketClient.RocketMainController
 	
 	//	Create private instance variables for:
 	//		TextBox  - 	txtIncome
@@ -90,17 +90,17 @@ public class MortgageController {
 		lblMortgagePayment.setText("");
 	}
 	
-	//	TODO - RocketClient.RocketMainController
+	// - RocketClient.RocketMainController
 	//			Call this when btnPayment is pressed, calculate the payment
 	@FXML
 	public void btnCalculatePayment(ActionEvent event)
 	{
 		Object message = null;
-		//	TODO - RocketClient.RocketMainController
+		//	- RocketClient.RocketMainController
 		
 		Action a = new Action(eAction.CalculatePayment);
 		LoanRequest lq = new LoanRequest();
-		//	TODO - RocketClient.RocketMainController
+		//	- RocketClient.RocketMainController
 		//			set the loan request details...  rate, term, amount, credit score, downpayment
 		//			I've created you an instance of lq...  execute the setters in lq
 		
@@ -119,7 +119,7 @@ public class MortgageController {
 	
 	public void HandleLoanRequestDetails(LoanRequest lRequest)
 	{
-		//	TODO - RocketClient.HandleLoanRequestDetails
+		//	 - RocketClient.HandleLoanRequestDetails
 		//			lRequest is an instance of LoanRequest.
 		//			after it's returned back from the server, the payment (dPayment)
 		//			should be calculated.
