@@ -25,7 +25,7 @@ public class rate_test {
 		assertEquals(RateBLL.getRate(750), 3.75, 0.001);
 	}
 	
-	//TODO
+	//
 	@Test
 	public void test_getPayment() throws RateException {
 		assertEquals(RateBLL.getPayment(4.0/1200, 360, 300000, 0, false), -1432.25, 0.005);
