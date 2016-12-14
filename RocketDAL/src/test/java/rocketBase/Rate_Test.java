@@ -22,9 +22,11 @@ public class Rate_Test {
 		
 		ArrayList<RateDomainModel> rates = RateDAL.getAllRates();
 		System.out.println ("Rates size: " + rates.size());
-		assert(rates.size() > 0);
+		for (int i=0; i<5;i++){
+			System.out.println ("Rate "+i+": " + rates.get(i).getdInterestRate() +
+					"  Minimum Credit Score: " + rates.get(i).getiMinCreditScore());
+		}
 		
-		assert(1==1);
 	}
 
 }
